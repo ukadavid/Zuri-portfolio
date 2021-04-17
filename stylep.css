@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+font-family: 'Merriweather Sans',
+sans-serif;
+}
+
+h1 {
+  font-family: 'Berkshire Swash',
+  cursive;
+  color: #66BFBF;
+  margin-top: 30px;
+  font-size: 5.625rem;
+}
+
+hr {
+  border-top: dotted 6px #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+  margin: 5px auto;
+}
+
+.diff {
+  text-decoration: underline;
+}
+
+nav {
+  height: 10vh;
+  background: rgba(38, 69, 70, 0.575);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.side :hover {
+  color: rgb(127, 94, 170);
+}
+
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.mountain {
+  margin: 0px 100px auto auto;
+}
+
+.tcloud {
+  position:relative;
+  left: 250px;
+  margin-top: 20px;
+}
+
+.bcloud {
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+}
+
+.dev {
+ font-family: 'Berkshire Swash',
+ cursive;
+  color: #66BFBF;
+margin-top: 10px;
+font-size: 2.5rem;
+}
+
+/* Second page */
+
+.middle-container {
+  text-align: center;
+  background-color: #E4F9F5;
+}
+
+.my-picture {
+  border: 1px solid #E4F9F5;
+  border-radius: 50%;
+  margin-top: 40px;
+  transform: none;
+}
+
+.my-picture :hover {
+  transform: rotate(20deg)
+}
+
+.hi {
+  padding: 10px;
+  color: #11999E;
+}
+
+.word {
+  margin-bottom: 20px;
+  padding: 5px;
+  line-height: 2;
+  font-family: 'Merriweather Sans',
+  sans-serif;
+  color: #11999E;
+}
+
+.skills h2 {
+  padding: 10px;
+  color: #11999E;
+}
+
+.skill-1 p {
+  line-height: 2;
+  color: #11999E;
+}
+
+.img {
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.skill-2 {
+  background-color: #f0f0f6;
+  line-height: 2;
+    color: #2e7679;
+}
+
+h3 {
+  padding: 10px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.bottom-container {
+  margin-top: 20px;
+  background-color: rgb(44, 35, 35);
+  padding: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 20px;
+  color: #11999E;
+}
+
+.footer-link :hover {
+  color: rgb(43, 17, 17);
+}
+
+.bottom-container p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin: 20px auto;
+}
+
+form {
+  margin: 20px auto;
+}
+
+/* Form */
+
+textarea {
+   border-radius: 8px;
+   width: 200px;
+   height: 100px;
+}
+
+input[type="email"] {
+  border-radius: 8px;
+  width: 200px;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  border-top: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #66BFBF;
+  font-size: 20px;
+}
+
+
